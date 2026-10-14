@@ -1,0 +1,22 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: msg1 should be "<b>Sum of Grades</b>"
+    is_correct: false
+  - text: msg1 should be "<b>Number of Grades</b>"
+    is_correct: false
+  - text: msg1 should be "<b>Average Grade</b>"
+    is_correct: true
+  - text: msg2 should be "<b>All Grades are equal to 0</b>"
+    is_correct: false
+  - text: msg2 should be "<b>No grades were entered</b>"
+    is_correct: true
+  - text: msg2 should be "<b>There are only negative Grades</b>"
+    is_correct: false
+files:
+  - name: src/Main.java
+    visible: true
+    learner_created: false
+status: Unchecked
+record: -1
+local_check: true

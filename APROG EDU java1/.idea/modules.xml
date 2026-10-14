@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/APROG_EDU_java1.iml" filepath="$PROJECT_DIR$/.idea/modules/APROG_EDU_java1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/task0/APROG_EDU_java1.lesson1-task0.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/task0/APROG_EDU_java1.lesson1-task0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/task0/APROG_EDU_java1.lesson1-task0.main.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/task0/APROG_EDU_java1.lesson1-task0.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/task0/APROG_EDU_java1.lesson1-task0.test.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/task0/APROG_EDU_java1.lesson1-task0.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/task1/APROG_EDU_java1.lesson1-task1.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/task1/APROG_EDU_java1.lesson1-task1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/task1/APROG_EDU_java1.lesson1-task1.main.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/task1/APROG_EDU_java1.lesson1-task1.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/task1/APROG_EDU_java1.lesson1-task1.test.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/task1/APROG_EDU_java1.lesson1-task1.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/task2_1/APROG_EDU_java1.lesson1-task2_1.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/task2_1/APROG_EDU_java1.lesson1-task2_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/task2_1/APROG_EDU_java1.lesson1-task2_1.main.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/task2_1/APROG_EDU_java1.lesson1-task2_1.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/task2_1/APROG_EDU_java1.lesson1-task2_1.test.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/task2_1/APROG_EDU_java1.lesson1-task2_1.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/task2_2/APROG_EDU_java1.lesson1-task2_2.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/task2_2/APROG_EDU_java1.lesson1-task2_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/task2_2/APROG_EDU_java1.lesson1-task2_2.main.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/task2_2/APROG_EDU_java1.lesson1-task2_2.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/task2_2/APROG_EDU_java1.lesson1-task2_2.test.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/task2_2/APROG_EDU_java1.lesson1-task2_2.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/task3/APROG_EDU_java1.lesson1-task3.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/task3/APROG_EDU_java1.lesson1-task3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/task3/APROG_EDU_java1.lesson1-task3.main.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/task3/APROG_EDU_java1.lesson1-task3.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/task3/APROG_EDU_java1.lesson1-task3.test.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/task3/APROG_EDU_java1.lesson1-task3.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/task4_1/APROG_EDU_java1.lesson1-task4_1.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/task4_1/APROG_EDU_java1.lesson1-task4_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/task4_1/APROG_EDU_java1.lesson1-task4_1.main.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/task4_1/APROG_EDU_java1.lesson1-task4_1.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/task4_1/APROG_EDU_java1.lesson1-task4_1.test.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/task4_1/APROG_EDU_java1.lesson1-task4_1.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/task4_2/APROG_EDU_java1.lesson1-task4_2.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/task4_2/APROG_EDU_java1.lesson1-task4_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/task4_2/APROG_EDU_java1.lesson1-task4_2.main.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/task4_2/APROG_EDU_java1.lesson1-task4_2.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/task4_2/APROG_EDU_java1.lesson1-task4_2.test.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/task4_2/APROG_EDU_java1.lesson1-task4_2.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/task5/APROG_EDU_java1.lesson1-task5.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/task5/APROG_EDU_java1.lesson1-task5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/task5/APROG_EDU_java1.lesson1-task5.main.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/task5/APROG_EDU_java1.lesson1-task5.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/task5/APROG_EDU_java1.lesson1-task5.test.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/task5/APROG_EDU_java1.lesson1-task5.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/task6_1/APROG_EDU_java1.lesson1-task6_1.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/task6_1/APROG_EDU_java1.lesson1-task6_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/task6_1/APROG_EDU_java1.lesson1-task6_1.main.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/task6_1/APROG_EDU_java1.lesson1-task6_1.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/task6_1/APROG_EDU_java1.lesson1-task6_1.test.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/task6_1/APROG_EDU_java1.lesson1-task6_1.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/task6_2/APROG_EDU_java1.lesson1-task6_2.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/task6_2/APROG_EDU_java1.lesson1-task6_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/task6_2/APROG_EDU_java1.lesson1-task6_2.main.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/task6_2/APROG_EDU_java1.lesson1-task6_2.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/task6_2/APROG_EDU_java1.lesson1-task6_2.test.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/task6_2/APROG_EDU_java1.lesson1-task6_2.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/APROG_EDU_java1.util.iml" filepath="$PROJECT_DIR$/.idea/modules/util/APROG_EDU_java1.util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/APROG_EDU_java1.util.main.iml" filepath="$PROJECT_DIR$/.idea/modules/util/APROG_EDU_java1.util.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/APROG_EDU_java1.util.test.iml" filepath="$PROJECT_DIR$/.idea/modules/util/APROG_EDU_java1.util.test.iml" />
+    </modules>
+  </component>
+</project>

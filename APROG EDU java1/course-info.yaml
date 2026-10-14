@@ -1,0 +1,39 @@
+type: marketplace
+title: APROG EDU java1
+language: English
+summary: |
+  <strong>APROG DEI</strong><br><br>
+  <strong>Java Programming<br>
+  </strong><br>
+  Emanuel Cunha Silva<br>
+  ecs@isep.ipp.pt<br>
+  <br>
+programming_language: Java
+content:
+  - lesson1
+additional_files:
+  - name: lib/opentest4j-1.2.0.jar
+    is_binary: true
+  - name: lib/junit-jupiter-5.8.1.jar
+    is_binary: true
+  - name: lib/apiguardian-api-1.1.2.jar
+    is_binary: true
+  - name: lib/junit-jupiter-api-5.8.1.jar
+    is_binary: true
+  - name: lib/junit-jupiter-engine-5.8.1.jar
+    is_binary: true
+  - name: lib/junit-jupiter-params-5.8.1.jar
+    is_binary: true
+  - name: lib/junit-platform-engine-1.8.1.jar
+    is_binary: true
+  - name: lib/junit-platform-commons-1.8.1.jar
+    is_binary: true
+  - name: build.gradle
+  - name: settings.gradle
+  - name: gradle/wrapper/gradle-wrapper.properties
+mode: Study
+environment_settings:
+  jvm_language_level: JDK_1_8
+vendor:
+  name: Emanuel Silva
+yaml_version: 6

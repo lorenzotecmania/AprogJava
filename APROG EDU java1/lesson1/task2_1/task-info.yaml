@@ -1,0 +1,16 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: msg could be "<b>Sum of digits</b>"
+    is_correct: false
+  - text: msg could be "<b>Number of digits</b>"
+    is_correct: true
+  - text: msg could be "<b>Number of divisors</b>"
+    is_correct: false
+files:
+  - name: src/Main.java
+    visible: true
+    learner_created: false
+status: Unchecked
+record: -1
+local_check: true

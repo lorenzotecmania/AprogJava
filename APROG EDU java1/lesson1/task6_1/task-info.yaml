@@ -1,0 +1,26 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: Reads several numbers of type <b>int</b> and <b>double</b>
+    is_correct: false
+  - text: Reads a <b>double</b> number <b>n</b> times
+    is_correct: true
+  - text: Reads a <b>double</b> number when <b>d > b</b>
+    is_correct: false
+  - text: Reads a <b>double</b> number when <b>d < c</b>
+    is_correct: false
+  - text: It is very difficult to understand the code
+    is_correct: true
+  - text: Variable identifiers should be more explicit
+    is_correct: true
+  - text: The output messages are synthetic
+    is_correct: false
+  - text: Output messages are not objective
+    is_correct: true
+files:
+  - name: src/Main.java
+    visible: true
+    learner_created: false
+status: Unchecked
+record: -1
+local_check: true

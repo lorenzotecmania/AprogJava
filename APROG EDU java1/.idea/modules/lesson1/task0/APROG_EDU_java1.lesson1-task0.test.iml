@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":lesson1-task0:test" external.linked.project.path="$MODULE_DIR$/../../../../lesson1/task0" external.root.project.path="$MODULE_DIR$/../../../.." external.system.id="GRADLE" external.system.module.group="APROG EDU java1" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output-test url="file://$MODULE_DIR$/../../../../lesson1/task0/out/test/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../lesson1/task0/src/test" />
+    <content url="file://$MODULE_DIR$/../../../../lesson1/task0/test" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="APROG_EDU_java1.lesson1-task0.main" />
+    <orderEntry type="module" module-name="APROG_EDU_java1.util.main" />
+    <orderEntry type="module" module-name="APROG_EDU_java1.util.test" production-on-test="" />
+    <orderEntry type="library" name="Gradle: junit:junit:4.12" level="project" />
+    <orderEntry type="library" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
+  </component>
+  <component name="TestModuleProperties" production-module="APROG_EDU_java1.lesson1-task0.main" />
+</module>

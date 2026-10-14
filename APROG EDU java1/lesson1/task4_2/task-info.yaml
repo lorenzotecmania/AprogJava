@@ -1,0 +1,21 @@
+type: edu
+files:
+  - name: src/Task.java
+    visible: true
+    placeholders:
+      - offset: 453
+        length: 20
+        placeholder_text: //put your code here
+        initial_state:
+          length: 20
+          offset: 453
+        initialized_from_dependency: false
+        encrypted_possible_answer: VaPBymJCjC6AWaAP8eGeLUVRzyGjeSHdUwsaug/xoJFdNW3C9RHP6gBgAAvhWZ62jX4raWp/oWRICnLkCz3LRmpxoBDPVeoWg+5fpXFhc9kxhgZmSkqZc2fHkM5yaXTkObXk1ChV3cOLZ3YhYgB6x8mr7PeRrutN6R90PUgzkz6bdHFqd+0a3h5Jod0VJ1jq1XWPQ1WMwzZHbWvmdJR9QSB4/ELTqg8mgtpFpHqsXAbdIO7J0d8cDxZQrliJjsmRQD+5sxFbQgYAj47ABIvYcTdPqsMtVvYFdzEBBA9yQJ3aV3XtLVwSbqlAHrRmUWt5DG23qPy2M3ITL2XAqNNmpRyuTsTmiXj2XXrF3SVfik2CCVx7HQpay9vg7heiC8Vy5ly6lQ2ID+63T6Rsb5k5b3AZOcMVScV07NaBTPVEBLJgk5E960dtld++GpJ+VS+OBvynwRIbI/tljC2KdmNj8YulFlzQwqz8pOmgMB5+0m8=
+        selected: false
+        status: Unchecked
+    learner_created: false
+  - name: test/Tests.java
+    visible: false
+    learner_created: false
+status: Unchecked
+record: -1

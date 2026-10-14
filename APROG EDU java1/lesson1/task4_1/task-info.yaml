@@ -1,0 +1,22 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: Reads an integer
+    is_correct: false
+  - text: Reads positive integers
+    is_correct: false
+  - text: Reads non-zero integers
+    is_correct: true
+  - text: Visualizes the factorial of <b>num</b>
+    is_correct: true
+  - text: Visualizes <b>res</b> raized to the power of num
+    is_correct: false
+  - text: Nothing is visualized
+    is_correct: false
+files:
+  - name: src/Main.java
+    visible: true
+    learner_created: false
+status: Unchecked
+record: -1
+local_check: true
