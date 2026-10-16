@@ -6,19 +6,18 @@ public class Ex1 {
         Scanner sc = new Scanner(System.in);
 
         int userInput = sc.nextInt();
-        int inputLength = Integer.toString(userInput).length();
-        int programOutput = userInput;
-        int i = 0;
+        int digitCounter = 0;
 
-        while (i<10){
-
-
-
-            programOutput = programOutput / 10;
-
-            i++;
-
-            System.out.println(programOutput);
+        for (int i = userInput; i > 0; i /= 10){
+            digitCounter += 1;
         }
+        System.out.println(digitCounter);
+
+
+        for (int i = 0; i < digitCounter; i++){
+            char A = userInput.charAt(i);
+
+        }
+        */
         }
     }
