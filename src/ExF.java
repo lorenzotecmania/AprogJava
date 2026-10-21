@@ -6,20 +6,30 @@ public class ExF {
         Scanner sc = new Scanner(System.in);
 
         long userInput = sc.nextLong();
-        boolean isPalindrome = false;
+        boolean isPalindrome = true;
         int firstDigitOfInput = 0;
+        int lastDigitOfInput = 0;
+        int lenghtOfInput = 0;
 
-        // como é q vou resolver esta merda
-        // neste momento apenas pego o primeiro digito depois de todos os outros
-        // preciso de um segundo loop q apanhe o primeiro digito e só depois pegue o ultimo
-        for (long a = userInput; a > 0; a /= 10) {
-            if (a < 10) {
-                firstDigitOfInput = (int) a;
-            }
-        }
-        for (long i = userInput; i > 0; i /= 10){
-            int lastDigitOfInput =  (int) (i % 10);
-            System.out.println("first digit =" + firstDigitOfInput + "last digit =" + lastDigitOfInput);
+
+        for (long i = userInput; i > 0; i /= 10){ lenghtOfInput++; }
+
+        for (int a = lenghtOfInput; a > 1; a -= 2){
+
+            lastDigitOfInput = (int) userInput % 10;
+            if (userInput != 0) {
+                for (long b = userInput; b > 0; b /= 10) {
+
+                    if (b < 10) { firstDigitOfInput = (int) b; }
+                }
+            }else{firstDigitOfInput = 0;}
+
+            userInput -= (long) Math.pow(10,(a-1))*firstDigitOfInput;
+            userInput /= 10;
+
+            if (firstDigitOfInput != lastDigitOfInput){ isPalindrome = false;}
+
+
         }
         if (isPalindrome) {System.out.println("palindrome");}else{System.out.println("not palindrome");}
     }
