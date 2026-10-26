@@ -18,24 +18,24 @@ public class ExL {
 
             boolean perfectFound = false;
 
-            while (perfectFound == false){
+            while (!perfectFound){
 
                 int sumOfDivisors = 0;
 
                 for (int a = 1; a < potentialPerfect; a++){
                     if (potentialPerfect % a == 0){ sumOfDivisors += a;}
-
-                    for (int b = a; b
-
-
                 }
 
-                System.out.println("sumOfDivisors" + sumOfDivisors);
+                if (potentialPerfect == sumOfDivisors){
+                    perfectFound = true;
+                    System.out.println(potentialPerfect);
+                }
+
+
                 potentialPerfect++;
             }
 
 
         }
-
     }
 }
