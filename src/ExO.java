@@ -18,29 +18,31 @@ import java.util.Scanner;
 //    Where <i> is the order of the suggestion sequence and <pizza> is the pizza code.
 
 public class ExO {
-    public static void main(String[] args){
+    static Scanner sc = new Scanner(System.in);
 
-        Scanner sc = new Scanner(System.in);
+    public static void main(String[] args){
 
         int firstUserInput = sc.nextInt();
         int secondUserInput = sc.nextInt();
-        StringBuilder aprovedPizzas = new StringBuilder();
-
-        //for (int h = firstUserInput; h > 0; h /= 10){int digit = h % 10;}
+        int sugestionCounter = 0;
 
         for (int i = secondUserInput; i > 0; i--){
 
             int userInput = sc.nextInt();
+            boolean aprovedPizza = true;
 
-            for (int h = userInput; h > 0; h /= 10){
-                int digit = h % 10;
-                for (int k = firstUserInput; k > 0; k /= 10){
-                    int dislikedDigit = h % 10;
-                    if (digit != dislikedDigit){aprovedPizzas.append(userInput);}
+            for (int k = firstUserInput; k >= 0; k /= 10){
+                int dislikedDigit = k % 10;
+                for (int h = userInput; h > 0; h /= 10){
+                    int digitBeingTested = h % 10;
+                    if (digitBeingTested == dislikedDigit){aprovedPizza = false;}
                 }
             }
-            //if then aprovedPizzas.append(pizza);
+            if (aprovedPizza){
+                sugestionCounter++;
+                System.out.println("Suggestion #" + sugestionCounter + ":" + userInput);
+            }
+
         }
-        System.out.print(aprovedPizzas);
-    }
+    } // time imit exceeded
 }
