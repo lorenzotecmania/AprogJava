@@ -31,13 +31,27 @@ public class ExO {
             int userInput = sc.nextInt();
             boolean aprovedPizza = true;
 
-            for (int k = firstUserInput; k >= 0; k /= 10){
-                int dislikedDigit = k % 10;
+
+            if (firstUserInput != 0) {
+                for (int k = firstUserInput; k > 0; k /= 10){
+                    int dislikedDigit = k % 10;
+                    //System.out.println(dislikedDigit);
+                    for (int h = userInput; h > 0; h /= 10){
+                        int digitBeingTested = h % 10;
+                        //System.out.println(k);
+                        if (digitBeingTested == dislikedDigit) {aprovedPizza = false;}
+                    }
+                }
+            }else{
+                int dislikedDigit = 0;
+                //System.out.println(dislikedDigit);
                 for (int h = userInput; h > 0; h /= 10){
                     int digitBeingTested = h % 10;
+                    //System.out.println(k);
                     if (digitBeingTested == dislikedDigit){aprovedPizza = false;}
                 }
             }
+
             if (aprovedPizza){
                 sugestionCounter++;
                 System.out.println("Suggestion #" + sugestionCounter + ":" + userInput);
