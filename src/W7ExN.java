@@ -22,6 +22,7 @@ public class W7ExN {
 		int userInput = -1;
 		int sumOfSquares = 0;
 		int iterationCounter = 0;
+		boolean isStable = true;
 
 		while (userInput < MIN_INPUT || userInput > MAX_INPUT){
 			userInput = sc.nextInt();
@@ -35,6 +36,7 @@ public class W7ExN {
 			userInput = sumOfSquares;
 			iterationCounter++;
 		}while (sumOfSquares > 1);
-		System.out.printf("%n");
+		if(isStable) System.out.printf("%nStable: %d",iterationCounter);
+		else System.out.printf("%nCyclic: %d",iterationCounter);
     }
 }
