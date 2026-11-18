@@ -36,7 +36,7 @@ public class W7ExZ {
 
 		for (int i = number; i > 0; i /= 10) lengthOfNumber++;
 
-		for (int i = lengthOfNumber; i > 0; i--){
+		for (int i = lengthOfNumber; i > 0 && isFullTimePrime; i--){
 
 			digit = number % 10;
 			number = number / 10;
@@ -46,13 +46,15 @@ public class W7ExZ {
 
 		return isFullTimePrime;
 	}
-	public static boolean checkIfPrime(int number){
-		int divisorCounter = 0;
+	public static boolean checkIfPrime(int number) {
+		if (number < 2) return false;
+		if (number == 2) return true;
+		if (number % 2 == 0) return false;
 
-		for (int i = 1; i <= number; i++){
-			if (number % i == 0) divisorCounter++;
+		for (int i = 3; i * i <= number; i += 2) {
+			if (number % i == 0) return false;
 		}
-		return divisorCounter == 2;
+		return true;
 	}
 
 	public static void main(String[] args){
